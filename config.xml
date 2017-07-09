@@ -9,4 +9,7 @@
     </author>
     <content src="index.html" />
     <access origin="*" />
+    <icon src="Saga_Icon_1024x1024.png" />
+
+	
 </widget>
