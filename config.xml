@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="com.mafh97.githubfinder" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
+    <name>GitHub Finder</name>
+    <description>
+       GitHub User Finder example app
+    </description>
+    <author email="mfigaredo@gmail.com" href="http://phonegap.com">
+        Miguel Figaredo
+    </author>
+    <content src="index.html" />
+    <access origin="*" />
+</widget>
