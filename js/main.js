@@ -6,15 +6,15 @@ $(document).ready(function(){
     $.ajax({
       url:'https://api.github.com/users/'+username,
       data:{
-        client_id:'d9308aacf8b204d361fd',
-        client_secret:'62551cc02cee983fff0bac41baf170eb5a312c1c'
+  //      client_id:'d9308aacf8b204d361fd',
+        client_secret:'bc269d9f68b3b6f31838ac8f7e637a91314b8410'
       }
     }).done(function(user){
       $.ajax({
         url:'https://api.github.com/users/'+username+'/repos',
         data:{
-          client_id:'d9308aacf8b204d361fd',
-          client_secret:'62551cc02cee983fff0bac41baf170eb5a312c1c',
+  //        client_id:'d9308aacf8b204d361fd',
+          client_secret:'bc269d9f68b3b6f31838ac8f7e637a91314b8410',
           sort: 'created: asc',
           per_page: 5
         }
