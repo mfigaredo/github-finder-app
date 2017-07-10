@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='utf-8'?>
-<widget id="com.mafh97.githubfinder" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0" versionCode="1">
+<widget id="com.mafh97.githubfinder" version="1.0.0" versionCode="1" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>GitHub Finder</name>
     <description>
        GitHub User Finder example app
@@ -8,9 +8,8 @@
         Miguel Figaredo
     </author>
     <content src="index.html" />
-	<gap:plugin name="cordova-plugin-whitelist" source="npm" />
     <access origin="*" />
-	<allow-navigation href="*://*.github.com/*" />
+    <allow-navigation href="*" />
     <icon src="Saga_Icon_1024x1024.png" />
-	
+    <gap:plugin name="cordova-plugin-whitelist" spec="~1.3.2" source="npm"/>
 </widget>
