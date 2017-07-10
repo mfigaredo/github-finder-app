@@ -4,12 +4,12 @@
     <description>
        GitHub User Finder example app
     </description>
-    <author email="mfigaredo@gmail.com" href="http://phonegap.com">
+    <author email="mfigaredo@gmail.com" href="https://github.com/mfigaredo">
         Miguel Figaredo
     </author>
     <content src="index.html" />
     <access origin="*" />
+	<allow-navigation href="*://*.github.com/*" />
     <icon src="Saga_Icon_1024x1024.png" />
-
 	
 </widget>
